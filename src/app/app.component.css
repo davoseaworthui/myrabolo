@@ -139,7 +139,7 @@ p {
 }
 .banner-service {
   text-align: center;
-  width: 380px;
+  width: 33%;
   height: 410px;
   margin: 10px;
   padding-top: 360px;
@@ -168,7 +168,7 @@ p {
   background-image: url("../assets/banner 3.jpg");
 }
 .banner-service div {
-  width: 380px;
+  width: 100%;
   font-size: 2em;
   height: 50px;
   line-height: 1.5;
