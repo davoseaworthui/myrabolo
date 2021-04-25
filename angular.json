@@ -31,12 +31,11 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css",
-              "node_modules/semantic-ui-css/components/button.min.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "node_modules/semantic-ui-css/components/button.min.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-        "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -128,6 +127,10 @@
               "devServerTarget": "myrabolo:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
