@@ -9,6 +9,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatIconModule } from '@angular/material/icon';
+import { ContentsComponent } from './components/contents/contents.component';
 
 
 
@@ -18,13 +20,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HeaderComponent,
     FooterComponent,
     SidenavComponent,
+    ContentsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    NgbModule
+    NgbModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
