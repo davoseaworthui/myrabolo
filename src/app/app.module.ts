@@ -11,6 +11,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatIconModule } from '@angular/material/icon';
 import { ContentsComponent } from './components/contents/contents.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { ServicesComponent } from './components/services/services.component';
 
 
 
@@ -21,6 +23,8 @@ import { ContentsComponent } from './components/contents/contents.component';
     FooterComponent,
     SidenavComponent,
     ContentsComponent,
+    BannerComponent,
+    ServicesComponent,
   ],
   imports: [
     BrowserModule,
